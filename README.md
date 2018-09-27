@@ -1,1 +1,1 @@
-# qbf_formulas_for_rl
+This is the data repository for the ICLR'19 submission "Learning Heuristics for Automated Reasoning through Reinforcement Learning".
