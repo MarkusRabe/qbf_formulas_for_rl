@@ -1,0 +1,28 @@
+['./measure_cadet.py', '--vsids', '--random', '--cegar', '-d', '../reduction-finding-test/', '-l', '2000', '-c', '-r', '10']
+Namespace(cactus=True, cegar=True, decision_limit=2000, directory='../reduction-finding-test/', file_type='*.qdimacs', projection=False, random=True, repetitions=10, vsids=True)
+
+Git hash: 5cfa5021cde17140417ec6d8218cb974e164ce95
+
+Average number of variables: 316.235
+
+Stats on decision numbers of the first run of Random:
+    Avg decisions: 443.89130434782606
+    Var decisions: 386582.7925330814
+Solved 40.60000000000001 of 200 in the decision limit 2000.
+Exponential histogram: {'0': 0, '<= 2**1': 3, '<= 2**2': 4, '<= 2**3': 2, '<= 2**4': 7, '<= 2**5': 5, '<= 2**6': 4, '<= 2**7': 2, '<= 2**8': 1, '<= 2**9': 3, '<= 2**10': 6, '<= 2**11': 9}
+
+
+Stats on decision numbers of the first run of VSIDS:
+    Avg decisions: 326.26153846153846
+    Var decisions: 321078.5315976331
+Solved 57.5 of 200 in the decision limit 2000.
+Exponential histogram: {'0': 0, '<= 2**1': 4, '<= 2**2': 12, '<= 2**3': 8, '<= 2**4': 2, '<= 2**5': 7, '<= 2**6': 6, '<= 2**7': 5, '<= 2**8': 4, '<= 2**9': 2, '<= 2**10': 5, '<= 2**11': 10}
+
+
+Stats on decision numbers of the first run of CEGAR:
+    Avg decisions: 217.41772151898735
+    Var decisions: 189181.24323025154
+Solved 152.3 of 200 in the decision limit 2000.
+Exponential histogram: {'0': 0, '<= 2**1': 10, '<= 2**2': 27, '<= 2**3': 18, '<= 2**4': 30, '<= 2**5': 13, '<= 2**6': 6, '<= 2**7': 8, '<= 2**8': 13, '<= 2**9': 9, '<= 2**10': 11, '<= 2**11': 13}
+
+
